@@ -21,3 +21,21 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# eclipse setting
+*.project
+*.settings
+*.classpath
+
+# maven 
+/target/
+/bin/
+
+# test
+/test-output/
+/resources/temp/
+/resources/reports/
+/resources/logs/
+
+#IDEA
+/.idea/
