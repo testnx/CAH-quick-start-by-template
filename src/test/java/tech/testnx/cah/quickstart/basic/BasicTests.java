@@ -69,7 +69,7 @@ public class BasicTests extends AbstractTest {
 	@Test
 	@Description(testIDs = "T-005", 
 	title = "Data Ready", 
-	description = "Test plus")
+	description = "Test plus: ${{1}} + ${{2}} = ${{3}}?")
 	public void testDataPlus(String description, int first, int second, int result) {
 		Recorder.log(description);
 		Assert.assertEquals(first + second, result);
@@ -78,7 +78,7 @@ public class BasicTests extends AbstractTest {
 	@Test
 	@Description(testIDs = "T-006", 
 	title = "Data Ready2", 
-	description = "Test minus")
+	description = "Test minus: ${{1}} - ${{2}} = ${{3}}?")
 	public void testDataMinus(String description, int first, int second, int result) {
 		Recorder.log(description);
 		Assert.assertEquals(first - second, result);

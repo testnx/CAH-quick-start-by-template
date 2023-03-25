@@ -1,0 +1,23 @@
+{
+	"common": {
+		"commonData1": "value for commonData1"
+	},
+	"tests": {
+		"AdvancedTests": {
+			"testBingSearch": [
+				{
+					"keywords": "mathway",
+					"expectedTitle": "mathway - Search"
+				},
+				{
+					"keywords": "josh brolin",
+					"expectedTitle": "josh brolin - Search"
+				},
+                {
+                    "keywords": "ChatGPT",
+                    "expectedTitle": "GPT AI - Search"
+                }
+			]
+		}
+	}
+}
