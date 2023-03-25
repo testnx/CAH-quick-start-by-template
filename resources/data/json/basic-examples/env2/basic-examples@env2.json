@@ -1,0 +1,25 @@
+{
+	"common": {
+		"commonData1": "value for commonData1"
+	},
+	"tests": {
+		"BasicTests": {
+			"testDataPlus": [
+				{
+					"description": "Verify the 15 + 15 = 30?",
+					"first": 15,
+					"second": 15,
+					"result": 30
+				}
+			],
+			"testDataMinus": [
+				{
+					"description": "Verify the 17 - 15 = 1?",
+					"first": 17,
+					"second": 15,
+					"result": 1
+				}
+			]
+		}
+	}
+}

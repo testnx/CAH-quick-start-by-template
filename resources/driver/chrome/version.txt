@@ -1,0 +1,5 @@
+Download Home: https://chromedriver.chromium.org/downloads
+Download List: https://chromedriver.storage.googleapis.com/index.html
+
+ChromeDriver 110.0.5481.77
+Supports Chrome version 110
