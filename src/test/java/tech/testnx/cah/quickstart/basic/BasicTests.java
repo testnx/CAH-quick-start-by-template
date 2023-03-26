@@ -3,7 +3,6 @@ package tech.testnx.cah.quickstart.basic;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import tech.testnx.cah.AbstractTest;
 import tech.testnx.cah.common.reports.Recorder;
 import tech.testnx.cah.common.reports.annotations.Description;
@@ -24,7 +23,8 @@ public class BasicTests extends AbstractTest {
 	
 	@Test
 	@Description(testIDs = "T-001", 
-	title = "Knock Bing By Browser", 
+	title = "Knock Bing By Browser",
+	submodule = "UI testing",
 	description = "Successful to knock bing")
 	public void testKnockBingByBrowser() {
 		WebDriver driver = getDriver();
