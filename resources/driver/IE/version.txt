@@ -1,3 +1,0 @@
-Download URL: https://www.selenium.dev/downloads/
-
-V3.150.1

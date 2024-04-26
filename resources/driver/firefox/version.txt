@@ -1,3 +1,0 @@
-Download URL: https://github.com/mozilla/geckodriver/releases/
-
-V0.30.0
