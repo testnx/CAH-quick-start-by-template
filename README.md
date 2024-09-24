@@ -1,2 +1,2 @@
 # CAH Quick Start Project by template 
-Based on jdk11 and composite-automation-harnessV3.6.1
+Based on jdk11 and composite-automation-harness V3.11.0
