@@ -1,6 +1,0 @@
-Download Home: https://chromedriver.chromium.org/downloads
-Download List: https://chromedriver.storage.googleapis.com/index.html
-Download List: https://googlechromelabs.github.io/chrome-for-testing/#stable
-
-ChromeDriver 122.0.6261.128 32bits
-Supports Chrome version 122

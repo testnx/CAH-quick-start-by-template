@@ -1,3 +1,0 @@
-Download URL: https://github.com/mozilla/geckodriver/tags
-Documents: https://firefox-source-docs.mozilla.org/testing/geckodriver/
-v0.34.0 win64
