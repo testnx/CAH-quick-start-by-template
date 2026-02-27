@@ -13,7 +13,7 @@
     <dependency>
       <groupId>tech.testnx.cah</groupId>
       <artifactId>composite-automation-harness</artifactId>
-      <version>4.0.0</version>
+      <version>4.0.1</version>
     </dependency>
   </dependencies>
   
