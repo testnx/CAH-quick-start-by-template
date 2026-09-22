@@ -33,7 +33,7 @@ public class BingSearchPO extends PageBase {
     /**
      * Action: Search Bing by keywords
      */
-    @Action(description = "Search Bing by Keywords: ${{0}}", retry = 2, intervalWaitInSecond = 3)
+    @Action(description = "Search Bing by Keywords: ${{0}}", startWaitInSecond = 0, retry = 2, retryWaitInSecond = 3)
     public void search(String keywords) {
     	waitForReadyAndCapturePagePerf();
         searchbox.clear();
@@ -45,7 +45,7 @@ public class BingSearchPO extends PageBase {
     /**
      * Action: Get result title
      */
-    @Action(description = "Get result title", retry = 2, intervalWaitInSecond = 3)
+    @Action(description = "Get result title", startWaitInSecond = 0, retry = 2, retryWaitInSecond = 3)
     public String getResultTitle() {
     	waitForReadyAndCapturePagePerf();
     	return driver.getTitle();

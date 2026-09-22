@@ -22,7 +22,7 @@ public class BingController extends ControllerBase {
     
     protected BingController() {}
     
-    @Step(description = "Search Bing and check result", retry = 2, intervalWaitInSecond = 3)
+    @Step(description = "Search Bing and check result", startWaitInSecond = 0, retry = 2, retryWaitInSecond = 3)
     public void searchAndCheck(String url, String keywords, String expectedTitle) {
         driver.get(url);
         bingSearchPO.search(keywords);
